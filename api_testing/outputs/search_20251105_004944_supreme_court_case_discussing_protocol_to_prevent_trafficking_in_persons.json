@@ -1,0 +1,518 @@
+{
+  "categories": [
+    [
+      "Filter by AI Tags",
+      [
+        {
+          "value": "protection-of-life-and-liberty",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+tag:protection-of-life-and-liberty"
+        },
+        {
+          "value": "law-governing-narcotics",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+tag:law-governing-narcotics"
+        },
+        {
+          "value": "criminal-procedure-code",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+tag:criminal-procedure-code"
+        },
+        {
+          "value": "equality-before-law",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+tag:equality-before-law"
+        },
+        {
+          "value": "indian-penal-code",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+tag:indian-penal-code"
+        },
+        {
+          "value": "appeal-high-court < writ-petition-high-court",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+tag:appeal-high-court < writ-petition-high-court"
+        },
+        {
+          "value": "income-tax",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+tag:income-tax"
+        },
+        {
+          "value": "right-to-occupation, fundamental-right",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+tag:right-to-occupation, fundamental-right"
+        },
+        {
+          "value": "appeal-to-supreme-court, power-to-issue-writ",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+tag:appeal-to-supreme-court, power-to-issue-writ"
+        },
+        {
+          "value": "buying-a-slave",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+tag:buying-a-slave"
+        }
+      ]
+    ],
+    [
+      "Related Queries",
+      [
+        {
+          "value": "article 21",
+          "formInput": "article%2021"
+        },
+        {
+          "value": "prostitution ",
+          "formInput": "prostitution%20"
+        },
+        {
+          "value": "human rights",
+          "formInput": "human%20rights"
+        },
+        {
+          "value": "rape ",
+          "formInput": "rape%20"
+        },
+        {
+          "value": "human trafficking",
+          "formInput": "human%20trafficking"
+        },
+        {
+          "value": "ndps act",
+          "formInput": "ndps%20act"
+        },
+        {
+          "value": "coercion",
+          "formInput": "coercion"
+        },
+        {
+          "value": "trafficking ",
+          "formInput": "trafficking%20"
+        },
+        {
+          "value": "article 15",
+          "formInput": "article%2015"
+        },
+        {
+          "value": "right to privacy ",
+          "formInput": "right%20to%20privacy%20"
+        }
+      ]
+    ],
+    [
+      "Document Types",
+      [
+        {
+          "value": "All",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons",
+          "selected": true
+        },
+        {
+          "value": "Laws",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:laws"
+        },
+        {
+          "value": "Judgments",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:judgments"
+        },
+        {
+          "value": "Tribunals",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:tribunals"
+        },
+        {
+          "value": "Highcourts & Supremecourt",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:supremecourt,scorders,highcourts"
+        }
+      ]
+    ],
+    [
+      "Courts and Laws",
+      [
+        {
+          "value": "Lok Sabha Debates",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:loksabha",
+          "selected": false
+        },
+        {
+          "value": "Supreme Court of India",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:supremecourt",
+          "selected": false
+        },
+        {
+          "value": "Delhi High Court",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:delhi",
+          "selected": false
+        },
+        {
+          "value": "Madras High Court",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:chennai",
+          "selected": false
+        },
+        {
+          "value": "Gujarat High Court",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:gujarat",
+          "selected": false
+        },
+        {
+          "value": "Law Commission Report",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:lawcommission",
+          "selected": false
+        },
+        {
+          "value": "Allahabad High Court",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:allahabad",
+          "selected": false
+        },
+        {
+          "value": "Bombay High Court",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:bombay",
+          "selected": false
+        },
+        {
+          "value": "Punjab-Haryana High Court",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:punjab",
+          "selected": false
+        },
+        {
+          "value": "Constitution and Amendments",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+doctypes:constitution-amendments",
+          "selected": false
+        }
+      ]
+    ],
+    [
+      "Authors",
+      [
+        {
+          "value": "Rohinton Fali Nariman",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+authorid:r-f-nariman"
+        },
+        {
+          "value": "P N Prakash",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+authorid:p-n-prakash"
+        },
+        {
+          "value": "Arjan Kumar Sikri",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+authorid:a-k-sikri"
+        },
+        {
+          "value": "V Ramasubramanian",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+authorid:v-ramasubramanian"
+        },
+        {
+          "value": "N Anand Venkatesh",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+authorid:n-a-venkatesh"
+        }
+      ]
+    ],
+    [
+      "Bench",
+      [
+        {
+          "value": "Rohinton Fali Nariman",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+benchid:r-f-nariman"
+        },
+        {
+          "value": "P N Prakash",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+benchid:p-n-prakash"
+        },
+        {
+          "value": "Arjan Kumar Sikri",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+benchid:a-k-sikri"
+        },
+        {
+          "value": "Dhananjaya Yeshwant Chandrachud",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+benchid:d-y-chandrachud"
+        },
+        {
+          "value": "V Ramasubramanian",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+benchid:v-ramasubramanian"
+        },
+        {
+          "value": "Bhushan Ramkrishna Gavai",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+benchid:b-r-gavai"
+        },
+        {
+          "value": "N Anand Venkatesh",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+benchid:n-a-venkatesh"
+        },
+        {
+          "value": "R Pongiappan",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+benchid:r-pongiappan"
+        },
+        {
+          "value": "Indira Banerjee",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+benchid:i-banerjee"
+        },
+        {
+          "value": "Dipak Misra",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+benchid:d-misra"
+        }
+      ]
+    ],
+    [
+      "Years",
+      [
+        {
+          "value": "2025",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+year:2025"
+        },
+        {
+          "value": "2020",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+year:2020"
+        },
+        {
+          "value": "2014",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+year:2014"
+        },
+        {
+          "value": "2022",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+year:2022"
+        },
+        {
+          "value": "2019",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+year:2019"
+        },
+        {
+          "value": "unknown",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+year:unknown"
+        },
+        {
+          "value": "2015",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+year:2015"
+        },
+        {
+          "value": "2012",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+year:2012"
+        },
+        {
+          "value": "2021",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+year:2021"
+        },
+        {
+          "value": "2017",
+          "formInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons+year:2017"
+        }
+      ]
+    ]
+  ],
+  "docs": [
+    {
+      "tid": 237570,
+      "catids": null,
+      "doctype": 13,
+      "publishdate": "1950-01-26",
+      "authorid": null,
+      "bench": null,
+      "title": "Constitution of India",
+      "numcites": 0,
+      "numcitedby": 1900,
+      "headline": " Constitution of India \n\n     \n  \n\n  \n     \n      \n      India\n     \n  \n\n  \n    \n  \n\n  \n     Constitution of India \n  \n\n  \n    \n      \n         CONTITUENTASSEMBLY 00 of 1950 \n      \n    \n  \n\n  \n     \n      \n        \n        \n           \n            Published in Gazette 00",
+      "docsize": 1574206,
+      "fragment": false,
+      "covers": [],
+      "docsource": "Constitution and Amendments"
+    },
+    {
+      "tid": 173333132,
+      "catids": null,
+      "doctype": 1000,
+      "publishdate": "2025-04-15",
+      "authorid": null,
+      "bench": null,
+      "title": "Pinki vs The State Of Uttar Pradesh on 15 April, 2025",
+      "numcites": 68,
+      "numcitedby": 0,
+      "headline": " Pinki vs The State Of Uttar Pradesh on 15 April, 2025 \n\n 2025 INSC 482                                                              REPORTABLE",
+      "docsize": 256549,
+      "fragment": true,
+      "docsource": "Supreme Court of India"
+    },
+    {
+      "tid": 143202244,
+      "catids": [
+        41,
+        4,
+        381
+      ],
+      "doctype": 1000,
+      "publishdate": "2020-10-29",
+      "authorid": 1730,
+      "bench": [
+        544,
+        1730
+      ],
+      "title": "Tofan Singh vs The State Of Tamil Nadu on 29 October, 2020",
+      "numcites": 360,
+      "numcitedby": 1439,
+      "headline": " Tofan Singh vs The State Of Tamil Nadu on 29 October, 2020 \n\n Equivalent citations: AIR",
+      "docsize": 814708,
+      "fragment": true,
+      "docsource": "Supreme Court of India",
+      "author": "R F Nariman",
+      "authorEncoded": "r-f-nariman",
+      "citation": "AIR 2020 SUPREME COURT 5592"
+    },
+    {
+      "tid": 127517806,
+      "catids": [
+        46,
+        811,
+        44
+      ],
+      "doctype": 1000,
+      "publishdate": "2018-09-26",
+      "authorid": 1575,
+      "bench": [
+        1509,
+        1575,
+        1195,
+        429,
+        1105
+      ],
+      "title": "Justice K.S.Puttaswamy(Retd) vs Union Of India on 26 September, 2018",
+      "numcites": 661,
+      "numcitedby": 238,
+      "headline": " Justice K.S.Puttaswamy(Retd) vs Union Of India on 26 September, 2018 \n\n Equivalent citations",
+      "docsize": 3185140,
+      "fragment": true,
+      "docsource": "Supreme Court of India",
+      "author": "A K Sikri",
+      "authorEncoded": "a-k-sikri",
+      "citation": "(2018) 4 CURCC 1"
+    },
+    {
+      "tid": 12397485,
+      "catids": [
+        260,
+        295
+      ],
+      "doctype": 1000,
+      "publishdate": "2020-03-04",
+      "authorid": 1666,
+      "bench": [
+        1666,
+        931,
+        1730
+      ],
+      "title": "Internet And Mobile Association Of ... vs Reserve Bank Of India on 4 March, 2020",
+      "numcites": 128,
+      "numcitedby": 53,
+      "headline": " Internet And Mobile Association Of ... vs Reserve Bank Of India on 4 March, 2020 \n\n Equivalent",
+      "docsize": 378856,
+      "fragment": true,
+      "docsource": "Supreme Court of India",
+      "author": "V Ramasubramanian",
+      "authorEncoded": "v-ramasubramanian",
+      "citation": "AIR 2021 SUPREME COURT 2720"
+    },
+    {
+      "tid": 101702262,
+      "catids": [
+        41,
+        321,
+        121,
+        357
+      ],
+      "doctype": 1024,
+      "publishdate": "2012-06-01",
+      "authorid": 2029,
+      "bench": [
+        2029
+      ],
+      "title": "Vinod Kumar vs State Of Punjab on 1 June, 2012",
+      "numcites": 96,
+      "numcitedby": 25,
+      "headline": " Vinod Kumar vs State Of Punjab on 1 June, 2012 \n\n Author:  Paramjeet Singh  \n\n Bench:  Paramjeet",
+      "docsize": 229866,
+      "fragment": true,
+      "docsource": "Punjab-Haryana High Court",
+      "author": "P Singh",
+      "authorEncoded": "p-singh"
+    },
+    {
+      "tid": 50798357,
+      "catids": [
+        154,
+        55,
+        1
+      ],
+      "doctype": 1000,
+      "publishdate": "2014-12-17",
+      "authorid": 1730,
+      "bench": [
+        1606,
+        1730
+      ],
+      "title": "Assam Sanmilita Mahasangha & Ors vs Union Of India & Ors on 17 December, 2014",
+      "numcites": 63,
+      "numcitedby": 20,
+      "headline": " Assam Sanmilita Mahasangha &amp; Ors vs Union Of India &amp; Ors on 17 December, 2014",
+      "docsize": 153930,
+      "fragment": true,
+      "docsource": "Supreme Court of India",
+      "author": "R F Nariman",
+      "authorEncoded": "r-f-nariman",
+      "citation": "AIR 2015 SUPREME COURT 783"
+    },
+    {
+      "tid": 192703676,
+      "catids": [
+        975,
+        948,
+        49
+      ],
+      "doctype": 1000,
+      "publishdate": "2021-08-10",
+      "authorid": 1730,
+      "bench": [
+        1737,
+        1730
+      ],
+      "title": "Gemini Bay Transcription Pvt Ltd vs Integrated Sales Service Limited And ... on 10 August, 2021",
+      "numcites": 66,
+      "numcitedby": 17,
+      "headline": " Gemini Bay Transcription Pvt Ltd vs Integrated Sales Service Limited And ... on 10 August, 2021",
+      "docsize": 169642,
+      "fragment": true,
+      "docsource": "Supreme Court of India",
+      "author": "R F Nariman",
+      "authorEncoded": "r-f-nariman",
+      "citation": "AIR 2021 SUPREME COURT 3836"
+    },
+    {
+      "tid": 135719892,
+      "catids": [
+        650,
+        14
+      ],
+      "doctype": 1002,
+      "publishdate": "2014-08-12",
+      "authorid": 651,
+      "bench": [
+        651
+      ],
+      "title": "Delhi High <b>Court</b> Legal Services ... vs Uoi & Anr. on 12 August, 2014",
+      "numcites": 197,
+      "numcitedby": 16,
+      "headline": " Delhi High <b>Court</b> Legal Services ... vs Uoi &amp; Anr. on 12 August, 2014 \n\n Author:  Gita",
+      "docsize": 327638,
+      "fragment": true,
+      "docsource": "Delhi High Court",
+      "author": "G Mittal",
+      "authorEncoded": "g-mittal"
+    },
+    {
+      "tid": 58509699,
+      "catids": null,
+      "doctype": 1002,
+      "publishdate": "2017-04-11",
+      "authorid": 728,
+      "bench": [
+        728
+      ],
+      "title": "Cruz City 1 Mauritius Holdings vs Unitech Limited on 11 April, 2017",
+      "numcites": 41,
+      "numcitedby": 17,
+      "headline": " Cruz City 1 Mauritius Holdings vs Unitech Limited on 11 April, 2017 \n\n Author:  Vibhu Bakhru",
+      "docsize": 171206,
+      "fragment": true,
+      "docsource": "Delhi High Court",
+      "author": "V Bakhru",
+      "authorEncoded": "v-bakhru"
+    }
+  ],
+  "found": "1 - 10 of 59",
+  "encodedformInput": "Supreme%20Court%20case%20discussing%20Protocol%20to%20Prevent%20Trafficking%20in%20Persons"
+}

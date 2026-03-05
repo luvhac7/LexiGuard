@@ -1,0 +1,314 @@
+2025-11-06 03:55:06,059 - __main__ - INFO - Starting PDF Backend Test
+2025-11-06 03:55:06,060 - __main__ - INFO - Timestamp: 2025-11-06 03:55:06.060005
+2025-11-06 03:55:06,061 - __main__ - INFO - 
+################################################################################
+2025-11-06 03:55:06,061 - __main__ - INFO - TESTING INDIVIDUAL PDF PROCESSING
+2025-11-06 03:55:06,061 - __main__ - INFO - ################################################################################
+2025-11-06 03:55:06,062 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:06,063 - __main__ - INFO - Testing Case A: D:\highcourt_2024\Sangam_Milk_Producer_Company_Ltd_vs_The_Agricultural_Market_Committee_on_5_March_2024.PDF
+2025-11-06 03:55:06,064 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:06,065 - __main__ - INFO - Reading PDF file: D:\highcourt_2024\Sangam_Milk_Producer_Company_Ltd_vs_The_Agricultural_Market_Committee_on_5_March_2024.PDF
+2025-11-06 03:55:06,069 - __main__ - INFO - PDF file size: 264437 bytes
+2025-11-06 03:55:06,069 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:06,069 - __main__ - INFO - STEP 1: Extracting text from PDF pages
+2025-11-06 03:55:06,069 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:06,148 - __main__ - INFO -   Page 1 preview: Sangam Milk Producer Company Ltd. vs The Agricultural Market Committee on 5 March, 2024 Author: Sudhanshu Dhulia Bench: Sudhanshu Dhulia                                                                ...
+2025-11-06 03:55:06,149 - __main__ - INFO -   Page 2 preview: The first question is whether “ghee” is a “product of livestock” under the provisions of The Andhra Pradesh (Agricultural Produce and Livestock) Markets Act, 1966 (hereinafter referred to as “the Act”...
+2025-11-06 03:55:06,149 - __main__ - INFO -   Page 3 preview: (4) stands omitted vide the Andhra Pradesh (Agricultural Produce and Livestock) Markets (Amendment) Act, 2015. 5. In the year 1968, the State of Andhra Pradesh had issued a notification u/s 3 (3) of t...
+2025-11-06 03:55:06,149 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:06,149 - __main__ - INFO - STEP 2: Cleaning pages
+2025-11-06 03:55:06,150 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:06,180 - __main__ - INFO -   Preview: Sangam Milk Producer Company Ltd. vs The Agricultural Market
+Committee on 5 March, 2024
+Author: Sudhanshu Dhulia
+Bench: Sudhanshu Dhulia 1 2024 INSC 174 IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION OF 2014 SANGAM MILK PRODUCER COMPANY LTD. …APPELLANT(S) Versus THE AGRICULTURAL MARKET C...
+2025-11-06 03:55:06,181 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:06,181 - __main__ - INFO - STEP 3: Chunking text
+2025-11-06 03:55:06,181 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:06,184 - __main__ - INFO -   Chunk 1: 26093 chars, pages [0, 1, 2, 3, 4, 5, 6, 7, 8]
+2025-11-06 03:55:06,184 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:06,184 - __main__ - INFO - STEP 4: Summarizing chunks with Gemini
+2025-11-06 03:55:06,184 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:06,185 - __main__ - INFO - 
+--- Processing Chunk 1/1 ---
+2025-11-06 03:55:06,185 - __main__ - INFO - Chunk size: 26093 characters
+2025-11-06 03:55:06,185 - __main__ - INFO - Chunk pages: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+2025-11-06 03:55:06,185 - __main__ - INFO - Chunk preview: Sangam Milk Producer Company Ltd. vs The Agricultural Market
+Committee on 5 March, 2024
+Author: Sudhanshu Dhulia
+Bench: Sudhanshu Dhulia
+                                                               ...
+2025-11-06 03:55:06,186 - __main__ - INFO - Calling Gemini API for chunk 1...
+2025-11-06 03:55:17,907 - case_comparer - WARNING - Content was blocked by safety filters. Returning empty structure.
+2025-11-06 03:55:17,912 - __main__ - INFO -   Response keys: ['error', 'message']
+2025-11-06 03:55:17,916 - __main__ - WARNING -   Using fallback summary for chunk 1
+2025-11-06 03:55:17,925 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:17,926 - __main__ - INFO - STEP 5: Aggregating case summary with Gemini
+2025-11-06 03:55:17,926 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:17,926 - __main__ - INFO - Calling Gemini API to aggregate 1 chunk summaries...
+2025-11-06 03:55:23,165 - __main__ - INFO -   Summary keys: ['case_title', 'parties', 'court', 'date', 'overview', 'facts', 'issues', 'statutes_and_precedents', 'reasoning_summary', 'holding', 'significance', 'chunk_map']
+2025-11-06 03:55:23,165 - __main__ - INFO -   - case_title: Sangam Milk Producer Company Ltd. vs The Agricultural Market Committee
+2025-11-06 03:55:23,166 - __main__ - INFO -   - court: None
+2025-11-06 03:55:23,166 - __main__ - INFO -   - date: 5 March, 2024
+2025-11-06 03:55:23,167 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:23,167 - __main__ - INFO - Testing Case B: D:\highcourt_2024\Randeep_Singh_Rana_vs_The_State_Of_Haryana_on_22_November_2024.PDF
+2025-11-06 03:55:23,167 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:23,168 - __main__ - INFO - Reading PDF file: D:\highcourt_2024\Randeep_Singh_Rana_vs_The_State_Of_Haryana_on_22_November_2024.PDF
+2025-11-06 03:55:23,170 - __main__ - INFO - PDF file size: 265642 bytes
+2025-11-06 03:55:23,170 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:23,170 - __main__ - INFO - STEP 1: Extracting text from PDF pages
+2025-11-06 03:55:23,171 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:23,221 - __main__ - INFO -   Page 1 preview: Randeep Singh @ Rana vs The State Of Haryana on 22 November, 2024 Author: Abhay S. Oka Bench: Abhay S Oka 2024 INSC 887                                                                                R...
+2025-11-06 03:55:23,221 - __main__ - INFO -   Page 2 preview: locate his father, and therefore, a First Information Report was lodged at his instance. On 9th July 2013, the torso with other body parts of the deceased was recovered from a canal. The prosecution e...
+2025-11-06 03:55:23,222 - __main__ - INFO -   Page 3 preview: 6. In her examination-in-chief, PW-26 did not state that she knew the accused earlier. She described the accused as ‘seven to eight boys’. She did not depose that a test identification parade was cond...
+2025-11-06 03:55:23,222 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:23,222 - __main__ - INFO - STEP 2: Cleaning pages
+2025-11-06 03:55:23,222 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:23,231 - __main__ - INFO -   Preview: Randeep Singh @ Rana vs The State Of Haryana on 22
+November, 2024
+Author: Abhay S. Oka
+Bench: Abhay S Oka
+2024 INSC 887 Reportabl IN THE SUPREME COURT OF INDIA CRIMINAL APPELLATE JURISDICTION OF 2024 RANDEEP SINGH @ RANA & ANR. … APPELLANTS versus STATE OF HARYANA & ORS. … RESPONDENTS JUDGMENT
+ABHAY...
+2025-11-06 03:55:23,232 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:23,232 - __main__ - INFO - STEP 3: Chunking text
+2025-11-06 03:55:23,232 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:23,235 - __main__ - INFO -   Chunk 1: 26075 chars, pages [0, 1, 2, 3, 4, 5, 6, 7, 8]
+2025-11-06 03:55:23,235 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:23,235 - __main__ - INFO - STEP 4: Summarizing chunks with Gemini
+2025-11-06 03:55:23,236 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:23,236 - __main__ - INFO - 
+--- Processing Chunk 1/1 ---
+2025-11-06 03:55:23,236 - __main__ - INFO - Chunk size: 26075 characters
+2025-11-06 03:55:23,237 - __main__ - INFO - Chunk pages: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+2025-11-06 03:55:23,237 - __main__ - INFO - Chunk preview: Randeep Singh @ Rana vs The State Of Haryana on 22
+November, 2024
+Author: Abhay S. Oka
+Bench: Abhay S Oka
+2024 INSC 887
+                                                                               R...
+2025-11-06 03:55:23,237 - __main__ - INFO - Calling Gemini API for chunk 1...
+2025-11-06 03:55:34,359 - case_comparer - WARNING - Content was blocked by safety filters. Returning empty structure.
+2025-11-06 03:55:34,364 - __main__ - INFO -   Response keys: ['error', 'message']
+2025-11-06 03:55:34,367 - __main__ - WARNING -   Using fallback summary for chunk 1
+2025-11-06 03:55:34,375 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:34,376 - __main__ - INFO - STEP 5: Aggregating case summary with Gemini
+2025-11-06 03:55:34,376 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:34,377 - __main__ - INFO - Calling Gemini API to aggregate 1 chunk summaries...
+2025-11-06 03:55:38,991 - __main__ - INFO -   Summary keys: ['case_title', 'parties', 'court', 'date', 'overview', 'facts', 'issues', 'statutes_and_precedents', 'reasoning_summary', 'holding', 'significance', 'chunk_map']
+2025-11-06 03:55:38,991 - __main__ - INFO -   - case_title: Randeep Singh @ Rana vs The State Of Haryana
+2025-11-06 03:55:38,992 - __main__ - INFO -   - court: Supreme Court
+2025-11-06 03:55:38,993 - __main__ - INFO -   - date: 22 November, 2024
+2025-11-06 03:55:38,994 - __main__ - INFO - 
+################################################################################
+2025-11-06 03:55:38,995 - __main__ - INFO - TESTING FULL COMPARISON
+2025-11-06 03:55:38,995 - __main__ - INFO - ################################################################################
+2025-11-06 03:55:38,996 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:38,997 - __main__ - INFO - TESTING FULL COMPARISON PIPELINE
+2025-11-06 03:55:38,997 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:38,998 - __main__ - INFO - Case A: D:\highcourt_2024\Sangam_Milk_Producer_Company_Ltd_vs_The_Agricultural_Market_Committee_on_5_March_2024.PDF
+2025-11-06 03:55:38,999 - __main__ - INFO - Case B: D:\highcourt_2024\Randeep_Singh_Rana_vs_The_State_Of_Haryana_on_22_November_2024.PDF
+2025-11-06 03:55:38,999 - __main__ - INFO - 
+Reading PDF files...
+2025-11-06 03:55:39,003 - __main__ - INFO - Case A size: 264437 bytes
+2025-11-06 03:55:39,004 - __main__ - INFO - Case B size: 265642 bytes
+2025-11-06 03:55:39,005 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:55:39,006 - __main__ - INFO - Calling compare_two_cases function...
+2025-11-06 03:55:39,006 - __main__ - INFO - ================================================================================
+2025-11-06 03:55:39,007 - case_comparer - INFO - Processing Case A...
+2025-11-06 03:55:39,070 - case_comparer - INFO - Created 1 chunks from 9 pages
+2025-11-06 03:55:50,042 - case_comparer - WARNING - Content was blocked by safety filters. Returning empty structure.
+2025-11-06 03:55:50,042 - case_comparer - WARNING - Chunk 0 summary invalid or blocked, using fallback
+2025-11-06 03:55:50,042 - case_comparer - INFO - Summarized chunk 1/1
+2025-11-06 03:55:55,884 - case_comparer - INFO - Processing Case B...
+2025-11-06 03:55:55,959 - case_comparer - INFO - Created 1 chunks from 9 pages
+2025-11-06 03:56:06,523 - case_comparer - WARNING - Content was blocked by safety filters. Returning empty structure.
+2025-11-06 03:56:06,523 - case_comparer - WARNING - Chunk 0 summary invalid or blocked, using fallback
+2025-11-06 03:56:06,524 - case_comparer - INFO - Summarized chunk 1/1
+2025-11-06 03:56:14,039 - case_comparer - INFO - Comparing cases...
+2025-11-06 03:56:30,096 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:56:30,096 - __main__ - INFO - COMPARISON COMPLETE!
+2025-11-06 03:56:30,097 - __main__ - INFO - ================================================================================
+2025-11-06 03:56:30,097 - __main__ - INFO - Result keys: ['caseA', 'caseB', 'comparison']
+2025-11-06 03:56:30,097 - __main__ - INFO - 
+Case A summary keys: ['case_title', 'parties', 'court', 'date', 'overview', 'facts', 'issues', 'statutes_and_precedents', 'reasoning_summary', 'holding', 'significance', 'chunk_map', 'total_chunks', 'total_pages']
+2025-11-06 03:56:30,097 - __main__ - INFO - Case B summary keys: ['case_title', 'parties', 'court', 'date', 'overview', 'facts', 'issues', 'statutes_and_precedents', 'reasoning_summary', 'holding', 'significance', 'chunk_map', 'total_chunks', 'total_pages']
+2025-11-06 03:56:30,097 - __main__ - INFO - Comparison keys: ['headline_comparison', 'case_metadata', 'factual_background', 'legal_issues', 'statutory_provisions', 'precedents', 'arguments', 'reasoning_alignment', 'outcome_comparison', 'doctrinal_evolution', 'judicial_philosophy', 'similarity_scores', 'practical_takeaways', 'meta_insights', 'provenance']
+2025-11-06 03:56:30,104 - __main__ - INFO - 
+================================================================================
+2025-11-06 03:56:30,104 - __main__ - INFO - ALL TESTS COMPLETE
+2025-11-06 03:56:30,104 - __main__ - INFO - ================================================================================
+2025-11-06 03:56:30,105 - __main__ - INFO - Check 'test_pdf_backend.log' for detailed logs
+2025-11-06 04:01:01,917 - __main__ - INFO - Starting PDF Backend Test
+2025-11-06 04:01:01,919 - __main__ - INFO - Timestamp: 2025-11-06 04:01:01.918368
+2025-11-06 04:01:01,919 - __main__ - INFO - 
+################################################################################
+2025-11-06 04:01:01,919 - __main__ - INFO - TESTING INDIVIDUAL PDF PROCESSING
+2025-11-06 04:01:01,920 - __main__ - INFO - ################################################################################
+2025-11-06 04:01:01,920 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:01,921 - __main__ - INFO - Testing Case A: D:\highcourt_2024\Sangam_Milk_Producer_Company_Ltd_vs_The_Agricultural_Market_Committee_on_5_March_2024.PDF
+2025-11-06 04:01:01,921 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:01,924 - __main__ - INFO - Reading PDF file: D:\highcourt_2024\Sangam_Milk_Producer_Company_Ltd_vs_The_Agricultural_Market_Committee_on_5_March_2024.PDF
+2025-11-06 04:01:01,926 - __main__ - INFO - PDF file size: 264437 bytes
+2025-11-06 04:01:01,927 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:01,927 - __main__ - INFO - STEP 1: Extracting text from PDF pages
+2025-11-06 04:01:01,927 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:02,017 - __main__ - INFO -   Page 1 preview: Sangam Milk Producer Company Ltd. vs The Agricultural Market Committee on 5 March, 2024 Author: Sudhanshu Dhulia Bench: Sudhanshu Dhulia                                                                ...
+2025-11-06 04:01:02,018 - __main__ - INFO -   Page 2 preview: The first question is whether “ghee” is a “product of livestock” under the provisions of The Andhra Pradesh (Agricultural Produce and Livestock) Markets Act, 1966 (hereinafter referred to as “the Act”...
+2025-11-06 04:01:02,020 - __main__ - INFO -   Page 3 preview: (4) stands omitted vide the Andhra Pradesh (Agricultural Produce and Livestock) Markets (Amendment) Act, 2015. 5. In the year 1968, the State of Andhra Pradesh had issued a notification u/s 3 (3) of t...
+2025-11-06 04:01:02,020 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:02,021 - __main__ - INFO - STEP 2: Cleaning pages
+2025-11-06 04:01:02,021 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:02,044 - __main__ - INFO -   Preview: Sangam Milk Producer Company Ltd. vs The Agricultural Market
+Committee on 5 March, 2024
+Author: Sudhanshu Dhulia
+Bench: Sudhanshu Dhulia 1 2024 INSC 174 IN THE SUPREME COURT OF INDIA CIVIL APPELLATE JURISDICTION OF 2014 SANGAM MILK PRODUCER COMPANY LTD. …APPELLANT(S) Versus THE AGRICULTURAL MARKET C...
+2025-11-06 04:01:02,045 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:02,046 - __main__ - INFO - STEP 3: Chunking text
+2025-11-06 04:01:02,048 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:02,051 - __main__ - INFO -   Chunk 1: 26093 chars, pages [0, 1, 2, 3, 4, 5, 6, 7, 8]
+2025-11-06 04:01:02,052 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:02,052 - __main__ - INFO - STEP 4: Summarizing chunks with Gemini
+2025-11-06 04:01:02,053 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:02,053 - __main__ - INFO - 
+--- Processing Chunk 1/1 ---
+2025-11-06 04:01:02,053 - __main__ - INFO - Chunk size: 26093 characters
+2025-11-06 04:01:02,054 - __main__ - INFO - Chunk pages: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+2025-11-06 04:01:02,056 - __main__ - INFO - Chunk preview: Sangam Milk Producer Company Ltd. vs The Agricultural Market
+Committee on 5 March, 2024
+Author: Sudhanshu Dhulia
+Bench: Sudhanshu Dhulia
+                                                               ...
+2025-11-06 04:01:02,057 - __main__ - INFO - Calling Gemini API for chunk 1...
+2025-11-06 04:01:13,533 - case_comparer - WARNING - Content was blocked by safety filters. Returning empty structure.
+2025-11-06 04:01:13,536 - __main__ - INFO -   Response keys: ['error', 'message']
+2025-11-06 04:01:13,541 - __main__ - WARNING -   Using fallback summary for chunk 1
+2025-11-06 04:01:13,549 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:13,549 - __main__ - INFO - STEP 5: Aggregating case summary with Gemini
+2025-11-06 04:01:13,550 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:13,550 - __main__ - INFO - Calling Gemini API to aggregate 1 chunk summaries...
+2025-11-06 04:01:19,677 - __main__ - INFO -   Summary keys: ['case_title', 'parties', 'court', 'date', 'overview', 'facts', 'issues', 'statutes_and_precedents', 'reasoning_summary', 'holding', 'significance', 'chunk_map']
+2025-11-06 04:01:19,677 - __main__ - INFO -   - case_title: Sangam Milk Producer Company Ltd. vs The Agricultural Market Committee
+2025-11-06 04:01:19,677 - __main__ - INFO -   - court: None
+2025-11-06 04:01:19,677 - __main__ - INFO -   - date: 5 March, 2024
+2025-11-06 04:01:19,677 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:19,678 - __main__ - INFO - Testing Case B: D:\highcourt_2024\Randeep_Singh_Rana_vs_The_State_Of_Haryana_on_22_November_2024.PDF
+2025-11-06 04:01:19,678 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:19,678 - __main__ - INFO - Reading PDF file: D:\highcourt_2024\Randeep_Singh_Rana_vs_The_State_Of_Haryana_on_22_November_2024.PDF
+2025-11-06 04:01:19,679 - __main__ - INFO - PDF file size: 265642 bytes
+2025-11-06 04:01:19,680 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:19,680 - __main__ - INFO - STEP 1: Extracting text from PDF pages
+2025-11-06 04:01:19,680 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:19,774 - __main__ - INFO -   Page 1 preview: Randeep Singh @ Rana vs The State Of Haryana on 22 November, 2024 Author: Abhay S. Oka Bench: Abhay S Oka 2024 INSC 887                                                                                R...
+2025-11-06 04:01:19,774 - __main__ - INFO -   Page 2 preview: locate his father, and therefore, a First Information Report was lodged at his instance. On 9th July 2013, the torso with other body parts of the deceased was recovered from a canal. The prosecution e...
+2025-11-06 04:01:19,774 - __main__ - INFO -   Page 3 preview: 6. In her examination-in-chief, PW-26 did not state that she knew the accused earlier. She described the accused as ‘seven to eight boys’. She did not depose that a test identification parade was cond...
+2025-11-06 04:01:19,775 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:19,775 - __main__ - INFO - STEP 2: Cleaning pages
+2025-11-06 04:01:19,775 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:19,808 - __main__ - INFO -   Preview: Randeep Singh @ Rana vs The State Of Haryana on 22
+November, 2024
+Author: Abhay S. Oka
+Bench: Abhay S Oka
+2024 INSC 887 Reportabl IN THE SUPREME COURT OF INDIA CRIMINAL APPELLATE JURISDICTION OF 2024 RANDEEP SINGH @ RANA & ANR. … APPELLANTS versus STATE OF HARYANA & ORS. … RESPONDENTS JUDGMENT
+ABHAY...
+2025-11-06 04:01:19,808 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:19,808 - __main__ - INFO - STEP 3: Chunking text
+2025-11-06 04:01:19,809 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:19,823 - __main__ - INFO -   Chunk 1: 26075 chars, pages [0, 1, 2, 3, 4, 5, 6, 7, 8]
+2025-11-06 04:01:19,824 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:19,824 - __main__ - INFO - STEP 4: Summarizing chunks with Gemini
+2025-11-06 04:01:19,824 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:19,825 - __main__ - INFO - 
+--- Processing Chunk 1/1 ---
+2025-11-06 04:01:19,825 - __main__ - INFO - Chunk size: 26075 characters
+2025-11-06 04:01:19,826 - __main__ - INFO - Chunk pages: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+2025-11-06 04:01:19,826 - __main__ - INFO - Chunk preview: Randeep Singh @ Rana vs The State Of Haryana on 22
+November, 2024
+Author: Abhay S. Oka
+Bench: Abhay S Oka
+2024 INSC 887
+                                                                               R...
+2025-11-06 04:01:19,826 - __main__ - INFO - Calling Gemini API for chunk 1...
+2025-11-06 04:01:26,819 - __main__ - INFO -   Response keys: ['chunk_excerpt', 'background', 'issues', 'statutes', 'arguments', 'analysis_points', 'decision_clues']
+2025-11-06 04:01:26,820 - __main__ - INFO -   - chunk_excerpt: Randeep Singh @ Rana vs The State Of Haryana on 22
+November, 2024
+Author: Abhay S. Oka
+Bench: Abhay ...
+2025-11-06 04:01:26,820 - __main__ - INFO -   - background items: 4
+2025-11-06 04:01:26,820 - __main__ - INFO -   - issues: 4
+2025-11-06 04:01:26,821 - __main__ - INFO -   - statutes: 5
+2025-11-06 04:01:26,822 - __main__ - INFO -   - arguments: 7
+2025-11-06 04:01:26,825 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:26,826 - __main__ - INFO - STEP 5: Aggregating case summary with Gemini
+2025-11-06 04:01:26,826 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:26,826 - __main__ - INFO - Calling Gemini API to aggregate 1 chunk summaries...
+2025-11-06 04:01:44,284 - case_comparer - WARNING - Content was blocked by safety filters. Returning empty structure.
+2025-11-06 04:01:44,287 - __main__ - INFO -   Summary keys: ['error', 'message']
+2025-11-06 04:01:44,292 - __main__ - INFO - 
+################################################################################
+2025-11-06 04:01:44,292 - __main__ - INFO - TESTING FULL COMPARISON
+2025-11-06 04:01:44,293 - __main__ - INFO - ################################################################################
+2025-11-06 04:01:44,293 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:44,293 - __main__ - INFO - TESTING FULL COMPARISON PIPELINE
+2025-11-06 04:01:44,294 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:44,294 - __main__ - INFO - Case A: D:\highcourt_2024\Sangam_Milk_Producer_Company_Ltd_vs_The_Agricultural_Market_Committee_on_5_March_2024.PDF
+2025-11-06 04:01:44,295 - __main__ - INFO - Case B: D:\highcourt_2024\Randeep_Singh_Rana_vs_The_State_Of_Haryana_on_22_November_2024.PDF
+2025-11-06 04:01:44,296 - __main__ - INFO - 
+Reading PDF files...
+2025-11-06 04:01:44,300 - __main__ - INFO - Case A size: 264437 bytes
+2025-11-06 04:01:44,300 - __main__ - INFO - Case B size: 265642 bytes
+2025-11-06 04:01:44,300 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:01:44,301 - __main__ - INFO - Calling compare_two_cases function (with file upload method)...
+2025-11-06 04:01:44,301 - __main__ - INFO - ================================================================================
+2025-11-06 04:01:44,301 - __main__ - INFO - Attempting file upload method...
+2025-11-06 04:01:44,301 - case_comparer - INFO - Uploading Case A to Gemini...
+2025-11-06 04:01:44,369 - case_comparer - INFO - Uploading PDF to Gemini: case_a.pdf
+2025-11-06 04:01:52,083 - case_comparer - INFO - File uploaded successfully. File URI: https://generativelanguage.googleapis.com/v1beta/files/tda47ui1tlyu
+2025-11-06 04:01:52,084 - case_comparer - INFO - Uploading Case B to Gemini...
+2025-11-06 04:01:52,087 - case_comparer - INFO - Uploading PDF to Gemini: case_b.pdf
+2025-11-06 04:01:59,118 - case_comparer - INFO - File uploaded successfully. File URI: https://generativelanguage.googleapis.com/v1beta/files/rwdsxmwuo2ou
+2025-11-06 04:01:59,122 - case_comparer - INFO - Generating comparison using Gemini file upload API...
+2025-11-06 04:01:59,123 - case_comparer - INFO - file_a processing complete: ACTIVE
+2025-11-06 04:01:59,124 - case_comparer - INFO - file_b processing complete: ACTIVE
+2025-11-06 04:02:42,905 - case_comparer - INFO - Extracting individual case summaries...
+2025-11-06 04:03:22,534 - case_comparer - WARNING - Error extracting case summary: Unterminated string starting at: line 1 column 3633 (char 3632)
+2025-11-06 04:03:27,767 - case_comparer - INFO - Cleaned up uploaded files
+2025-11-06 04:03:27,767 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:03:27,768 - __main__ - INFO - COMPARISON COMPLETE!
+2025-11-06 04:03:27,768 - __main__ - INFO - ================================================================================
+2025-11-06 04:03:27,768 - __main__ - INFO - Result keys: ['caseA', 'caseB', 'comparison']
+2025-11-06 04:03:27,769 - __main__ - INFO - 
+Case A summary keys: ['case_title', 'parties', 'court', 'date', 'overview', 'facts', 'issues', 'statutes_and_precedents', 'reasoning_summary', 'holding', 'significance']
+2025-11-06 04:03:27,769 - __main__ - INFO - Case B summary keys: ['case_title', 'parties', 'court', 'date', 'overview', 'facts', 'issues', 'statutes_and_precedents', 'reasoning_summary', 'holding', 'significance']
+2025-11-06 04:03:27,771 - __main__ - INFO - Comparison keys: ['headline_comparison', 'case_metadata', 'factual_background', 'legal_issues', 'statutory_provisions', 'precedents', 'arguments', 'reasoning_alignment', 'outcome_comparison', 'doctrinal_evolution', 'judicial_philosophy', 'similarity_scores', 'practical_takeaways', 'meta_insights']
+2025-11-06 04:03:27,794 - __main__ - INFO - 
+================================================================================
+2025-11-06 04:03:27,794 - __main__ - INFO - ALL TESTS COMPLETE
+2025-11-06 04:03:27,795 - __main__ - INFO - ================================================================================
+2025-11-06 04:03:27,795 - __main__ - INFO - Check 'test_pdf_backend.log' for detailed logs

@@ -1,0 +1,299 @@
+{
+  "caseA": {
+    "case_title": "Sangam Milk Producer Company Ltd. vs The Agricultural Market Committee",
+    "parties": "Appellant(s): Sangam Milk Producer Company Ltd.\nRespondent(s): The Agricultural Market Committee & Ors.",
+    "court": "Supreme Court of India, Civil Appellate Jurisdiction",
+    "date": "March 5, 2024",
+    "overview": "The Supreme Court upheld the decision of the Andhra Pradesh High Court, affirming that 'ghee' is a 'product of livestock' under The Andhra Pradesh (Agricultural Produce and Livestock) Markets Act, 1966, and that the 1994 government notification regulating 'ghee' was validly issued under Section 4 of the Act without requiring the procedural steps of Section 3. The Court also directed the appellants to pay accumulated market fees, albeit with a two-year installment plan due to potential hardship.",
+    "facts": [
+      "The Andhra Pradesh (Agricultural Produce and Livestock) Markets Act, 1966 (the Act) was enacted to regulate the purchase and sale of agricultural produce, livestock, and products of livestock, and to establish markets.",
+      "Section 2(v) defines 'livestock' and Section 2(xv) defines 'products of livestock' as items declared by the Government by notification.",
+      "The Act outlines a procedure: Section 3 for declaring 'notified areas' (requiring a draft notification and public objections), and Section 4 for constituting market committees and declaring 'notified market areas' for already notified products.",
+      "In 1968, a notification under Section 3(3) included 'ghee' as a livestock product in Schedule II for 'notified areas'.",
+      "In 1971, a notification under Section 4(4) declared 'ghee' as a notified product for the Agricultural Market Committee, Guntur.",
+      "In 1972, the 1971 notification was amended, and 'ghee' was removed from the list of notified livestock products for the respondent-committee.",
+      "On July 15, 1994, the Government of A.P. published G.O. Ms. No.286, a general notification directing all notified markets to regulate products in Schedule II of the 1968 Notification, which included 'ghee'.",
+      "Producers of livestock products challenged the 1994 notification before the Andhra Pradesh High Court on two grounds: (1) 'ghee' is not a 'product of livestock', and (2) the procedure under Section 3 (draft notification, objections) was not followed.",
+      "A Full Bench of the Andhra Pradesh High Court, in *Kommisetty Nammalwar & Co. Guntur v. Agricultural Market Committee, Tenali & Ors.* (2009), by a 2:1 majority, rejected the arguments, upholding the 1994 notification as validly issued under Section 4 and confirming 'ghee' as a livestock product.",
+      "The appellants' writ petitions were dismissed by the High Court based on this Full Bench decision, leading to the present appeals before the Supreme Court.",
+      "During the pendency of the High Court matter, appellants were granted interim protection from paying market fees on 'ghee' from 1994 to 2009. After the High Court judgment, market committees issued demand notices for these accumulated fees."
+    ],
+    "issues": [
+      "Whether 'ghee' is a 'product of livestock' under the provisions of The Andhra Pradesh (Agricultural Produce and Livestock) Markets Act, 1966.",
+      "Whether the Government notification (G.O. Ms. No.286 dated 05.07.1994), which notified 'ghee' for regulation, was published after due compliance with the procedure contemplated under the Act.",
+      "Whether the appellants should be exempted from paying market fees for the period prior to the High Court judgment (05.07.1994 to 01.05.2009)."
+    ],
+    "statutes_and_precedents": [
+      "The Andhra Pradesh (Agricultural Produce and Livestock) Markets Act, 1966 (Sections 2(v), 2(xv), 3, 4, 12)",
+      "G.O. Ms. No.286 dated 05.07.1994",
+      "Kommisetty Nammalwar & Co. Guntur v. Agricultural Market Committee, Tenali & Ors. (2009) SCC OnLine AP 317 (Andhra Pradesh High Court Full Bench decision)",
+      "Park Leather Industry (P) LTD. v. State of U.P. and Others (2001) 3 SCC 135"
+    ],
+    "reasoning_summary": "The Supreme Court affirmed the High Court's reasoning on both main issues. \n\n**On 'ghee' as a 'product of livestock'**: The Court held that 'ghee' is derived from milk, which is a product of livestock (cows/buffaloes). Therefore, 'ghee' is a 'product of a product of livestock' and falls within the definition of 'products of livestock' under Section 2(xv) of the Act. The legislative intent was to include derivative items. The Court referenced *Park Leather Industry (P) LTD. v. State of U.P.*, where 'tanned leather' was considered an 'animal husbandry product' despite processing, reinforcing that processing does not change the fundamental nature of the product's origin.\n\n**On procedural compliance**: The Court distinguished between notifications under Section 3 and Section 4 of the Act. Section 3, which involves declaring a 'notified area' for the first time, mandates a draft notification and hearing of objections. Section 4, however, deals with declaring 'notified market areas' for products already notified under Section 3. The 1994 notification was issued under Section 4, concerning products already notified in 1968 under Section 3. Therefore, the procedural requirements of Section 3 were not applicable to the 1994 notification. The Court found no procedural infirmity.\n\n**On market fees**: The Court held that Market Committees have a duty to enforce the Act and provide facilities. Since the appellants availed these facilities, they are liable to pay the market fees as per Section 12 of the Act. The argument for exemption from fees prior to the High Court judgment was rejected, as it would amount to unjust enrichment. However, acknowledging the hardship of accumulated fees, the Court allowed payment in four equal installments over two years.",
+    "holding": "The Supreme Court dismissed the appeals, upholding the majority decision of the Andhra Pradesh High Court. It affirmed that 'ghee' is a 'product of livestock' and that the 1994 notification was validly issued. The interim orders restraining the collection of market fees prior to the High Court judgment were vacated. Appellants were directed to pay the accumulated market fees from 05.07.1994 to 01.05.2009 within two years in four equal installments.",
+    "significance": [
+      "This judgment clarifies the interpretation of 'products of livestock' under the Andhra Pradesh (Agricultural Produce and Livestock) Markets Act, 1966, establishing that derivative products like 'ghee' are covered, even if they undergo processing.",
+      "It distinguishes the procedural requirements for notifications under Section 3 (initial declaration of notified areas) and Section 4 (declaration of notified market areas for already notified products), confirming that the stringent draft notification and objection-hearing process is not required for Section 4 notifications.",
+      "The ruling reinforces the obligation of traders to pay market fees for regulated products, even if there was an interim stay, while providing a practical solution for payment to mitigate financial hardship."
+    ]
+  },
+  "caseB": {
+    "case_title": "Unknown",
+    "parties": "Unknown",
+    "court": "Unknown",
+    "date": "Unknown",
+    "overview": "Error extracting summary: Unterminated string starting at: line 1 column 3633 (char 3632)",
+    "facts": [],
+    "issues": [],
+    "statutes_and_precedents": [],
+    "reasoning_summary": "Could not extract",
+    "holding": "Could not extract",
+    "significance": []
+  },
+  "comparison": {
+    "headline_comparison": "While both cases are Supreme Court judgments from 2024, they diverge sharply in their legal domains, with one affirming regulatory authority over agricultural products and the other overturning a criminal conviction due to severe evidentiary and procedural flaws.",
+    "case_metadata": {
+      "titles": {
+        "A": "Sangam Milk Producer Company Ltd. vs The Agricultural Market Committee",
+        "B": "Randeep Singh @ Rana vs The State Of Haryana"
+      },
+      "courts": {
+        "A": "Supreme Court of India",
+        "B": "Supreme Court of India"
+      },
+      "dates": {
+        "A": "March 5, 2024",
+        "B": "November 22, 2024"
+      },
+      "case_types": {
+        "A": "Civil Appeal (Civil Appellate Jurisdiction)",
+        "B": "Criminal Appeal (Criminal Appellate Jurisdiction)"
+      }
+    },
+    "factual_background": {
+      "similarities": [],
+      "differences": [
+        "Case A involves a challenge to a government notification regulating 'ghee' as a 'product of livestock' under an agricultural markets act and the levy of market fees.",
+        "Case B concerns a criminal appeal against convictions for abduction, murder, and destruction of evidence, focusing on the admissibility and sufficiency of evidence."
+      ],
+      "key_fact_map": [
+        {
+          "factA": "The Andhra Pradesh Government issued a 1994 notification including 'ghee' as a 'product of livestock' for regulation under the AP (Agricultural Produce and Livestock) Markets Act, 1966.",
+          "factB": "The deceased, Gurpal Singh, was abducted from his car, and his body parts were later recovered. The prosecution relied on eyewitness testimony, CCTV footage, and discovery statements."
+        },
+        {
+          "factA": "Appellants challenged the notification on grounds that 'ghee' is not a livestock product and that the notification procedure under Section 3 of the Act was not followed.",
+          "factB": "The appellants (accused) were convicted by the Sessions Court and High Court based on circumstantial evidence, which they challenged as inadmissible or insufficient."
+        }
+      ]
+    },
+    "legal_issues": {
+      "shared_issues": [],
+      "distinct_issues_A": [
+        "Interpretation of 'product of livestock' under the Andhra Pradesh (Agricultural Produce and Livestock) Markets Act, 1966.",
+        "Procedural compliance for issuing notifications under Sections 3 and 4 of the Act.",
+        "Liability for payment of market fees."
+      ],
+      "distinct_issues_B": [
+        "Admissibility and reliability of eyewitness testimony, particularly concerning omissions and lack of identification parade.",
+        "Admissibility of electronic evidence (CCTV footage) without a certificate under Section 65B of the Indian Evidence Act.",
+        "Admissibility of disclosure statements under Section 27 of the Indian Evidence Act, specifically the confessional portions.",
+        "Sufficiency of circumstantial evidence to prove guilt beyond reasonable doubt in a murder case."
+      ],
+      "framing_differences": [
+        "Case A's issues are framed around statutory interpretation and administrative law principles governing market regulation and fees.",
+        "Case B's issues are framed around fundamental principles of criminal jurisprudence, focusing on evidentiary rules, procedural safeguards, and the standard of proof in criminal trials."
+      ]
+    },
+    "statutory_provisions": {
+      "common_statutes": [],
+      "unique_A": [
+        "The Andhra Pradesh (Agricultural Produce and Livestock) Markets Act, 1966 (Sections 2(v), 2(xv), 3, 4, 12)",
+        "Andhra Pradesh (Agricultural Produce and Livestock) Markets (Amendment) Act, 2015"
+      ],
+      "unique_B": [
+        "Indian Penal Code, 1860 (Sections 364, 302, 201, 212, 120-B)",
+        "Indian Evidence Act, 1872 (Sections 25, 26, 27, 65B)",
+        "Code of Criminal Procedure, 1973 (Sections 161, 162)"
+      ],
+      "interpretation_differences": [
+        "Case A involves interpreting definitions ('ghee' as 'product of livestock') and procedural requirements (Section 3 vs. Section 4 notifications) within a specific state market act.",
+        "Case B involves interpreting the strict evidentiary rules regarding confessions to police (Sections 25, 26), discovery statements (Section 27), and electronic evidence (Section 65B) under central legislation."
+      ]
+    },
+    "precedents": {
+      "common_precedents": [],
+      "unique_A": [
+        "Kommisetty Nammalwar & Co. Guntur v. Agricultural Market Committee, Tenali & Ors. (2009) SCC OnLine AP 317 (Full Bench AP High Court)",
+        "Park Leather Industry (P) LTD. v. State of U.P. and Others (2001) 3 SCC 135",
+        "Kishan Lal v. State of Rajasthan, AIR 1990 SC 2269",
+        "Ram Chandra Kailash Kumar v. State of U.P. 1980 Supp (1) SCC 27",
+        "Smt. Sita Devi (Dead) by LRs. v. State of Bihar & Ors. 1995 Supp (1) SSC 670"
+      ],
+      "unique_B": [
+        "Sharad Birdhichand Sarda v. State of Maharashtra (1984) 4 SCC 116",
+        "Pulukuri Kotayya & Ors. v. King- Emperor (1946) 74 IA 65",
+        "K. Chinnaswamy Reddy v. State of A.P. (1962 SCC OnLine SC 32)",
+        "Subhash Chand v. State of Rajasthan (2002) 1 SCC 702",
+        "Shivaji Sahabrao Bobade v. State of Maharashtra [(1973) 2 SCC 793]"
+      ],
+      "conflicting_precedents": [],
+      "treatment_differences": [
+        "Case A uses precedents to support a broad, purposive interpretation of statutory definitions (e.g., 'product of a product') and to distinguish between different procedural requirements within an administrative framework.",
+        "Case B relies on a line of precedents to emphasize strict adherence to evidentiary rules, particularly concerning confessions, discovery, and electronic evidence, and to reinforce the high standard of proof in criminal cases based on circumstantial evidence."
+      ]
+    },
+    "arguments": {
+      "petitioner_A": [
+        "Ghee is not a 'product of livestock' as it is a processed derivative, not directly from livestock.",
+        "The 1994 notification was invalid due to non-compliance with the mandatory draft notification and objection-hearing procedure under Section 3 of the Act.",
+        "Sought exemption from market fees accumulated prior to the High Court judgment due to interim protection and potential hardship."
+      ],
+      "respondent_A": [
+        "Ghee is a 'product of livestock' as it is derived from milk, which comes from livestock, making it a 'product of a product of livestock'.",
+        "The 1994 notification was issued under Section 4, which does not require the Section 3 procedure, as Section 3 is a one-time area notification.",
+        "Appellants availed market facilities and are therefore liable to pay market fees, with no question of unjust enrichment."
+      ],
+      "petitioner_B": [
+        "Eyewitness (PW-26) testimony is unreliable due to significant omissions, contradictions, and absence of a test identification parade.",
+        "CCTV footage is inadmissible as the prosecution failed to produce the mandatory certificate under Section 65B of the Evidence Act.",
+        "The Investigating Officer (PW-27) wrongly proved inadmissible confessional statements made to the police, violating Sections 25 and 26 of the Evidence Act, and only a distinct part of discovery statements under Section 27 is admissible.",
+        "The chain of circumstantial evidence is incomplete and does not exclude every other hypothesis except the guilt of the accused, failing the Sharad Birdhichand Sarda test."
+      ],
+      "respondent_B": [
+        "PW-26 is a natural eyewitness whose testimony should be credited, and she identified the accused.",
+        "The circumstantial evidence, including CCTV footage, proves the complicity of the accused.",
+        "The offence was brutal and gruesome, warranting no interference with concurrent judgments of conviction."
+      ],
+      "common_themes": [
+        "Both cases involve challenges to the legality and procedural correctness of government actions or evidence presented by the state.",
+        "Both cases highlight the importance of statutory interpretation and adherence to legal procedures."
+      ],
+      "divergent_approaches": [
+        "Case A's arguments center on the scope of regulatory power and administrative procedure in a civil/commercial context.",
+        "Case B's arguments are rooted in criminal law, focusing on fundamental rights, evidentiary standards, and the burden of proof."
+      ]
+    },
+    "reasoning_alignment": {
+      "alignment_score": 10,
+      "alignment_summary": [
+        "There is minimal alignment in the specific reasoning or analytical approaches, as the cases belong to entirely different legal domains (civil/administrative vs. criminal).",
+        "Both courts demonstrate a rigorous application of legal principles to the facts, but the principles themselves are distinct."
+      ],
+      "contradictions": [
+        "No direct contradictions in legal principles, as the subject matter is disparate."
+      ],
+      "analytical_approach": {
+        "A": "The Court adopted a purposive and textual interpretation of the 'products of livestock' definition, considering derivative products. It distinguished between different procedural requirements based on the specific section of the Act (Section 3 vs. Section 4) and upheld administrative discretion where statutory procedures were met. It also considered practical hardship in fee collection.",
+        "B": "The Court adopted a strict adherence to evidentiary rules and procedural safeguards in criminal law. It meticulously analyzed the admissibility of eyewitness testimony, electronic evidence, and disclosure statements, emphasizing the 'proof beyond reasonable doubt' standard and the completeness of the circumstantial evidence chain. It criticized lower courts for admitting inadmissible evidence."
+      },
+      "key_principles": {
+        "A": [
+          "Interpretation of 'products of livestock' to include derivative products ('product of a product').",
+          "Distinction between initial area notification (Section 3) and subsequent market area/product notification (Section 4) regarding procedural compliance.",
+          "Liability for market fees when facilities are availed, with consideration for payment flexibility."
+        ],
+        "B": [
+          "Strict compliance with Section 65B of the Evidence Act for electronic evidence.",
+          "Limited admissibility of disclosure statements under Section 27 of the Evidence Act, excluding confessional parts.",
+          "The 'proof beyond reasonable doubt' standard and the five golden principles for circumstantial evidence (Sharad Birdhichand Sarda).",
+          "Adverse inference for withholding material eyewitness evidence."
+        ]
+      }
+    },
+    "outcome_comparison": {
+      "verdicts": {
+        "A": "Appeals dismissed; High Court's majority decision upheld.",
+        "B": "Appeals allowed; convictions quashed and set aside; appellants acquitted."
+      },
+      "holdings": {
+        "A": "Ghee is a 'product of livestock' under the Act. The 1994 notification was validly issued under Section 4 without requiring Section 3 procedures. Appellants are liable to pay market fees.",
+        "B": "The prosecution failed to prove guilt beyond reasonable doubt due to inadmissible eyewitness testimony, inadmissible CCTV footage, and improper admission of confessional parts of disclosure statements. The chain of circumstantial evidence was incomplete."
+      },
+      "relief_granted": {
+        "A": [
+          "No relief from market fee liability, but a two-year period to deposit accumulated fees in four equal instalments was granted due to hardship.",
+          "Interim orders restraining fee collection vacated."
+        ],
+        "B": [
+          "Appellants acquitted of all charges.",
+          "Ordered immediate release from prison if not required in connection with any other offence."
+        ]
+      },
+      "practical_effect": [
+        "Case A affirms the regulatory power of Agricultural Market Committees over 'ghee' and similar derivative products, ensuring continued collection of market fees and upholding the administrative notification process.",
+        "Case B underscores the critical importance of proper evidence collection and presentation in criminal trials, leading to the acquittal of individuals whose convictions were based on legally flawed evidence, reinforcing due process and fair trial principles."
+      ]
+    },
+    "doctrinal_evolution": {
+      "evolution_direction": "Case A clarifies and reinforces the expansive interpretation of 'products of livestock' within market legislation and distinguishes procedural requirements for different types of notifications. Case B strengthens the doctrinal position on evidentiary standards in criminal law, particularly concerning electronic evidence, confessions, and circumstantial proof, emphasizing strict adherence to statutory provisions.",
+      "principles_developed": [
+        "A: The 'product of a product of livestock' principle for statutory definitions in market acts; clear demarcation of procedural requirements under different sections of regulatory statutes.",
+        "B: Reiteration of the strict interpretation of Sections 25, 26, and 27 of the Evidence Act; mandatory nature of Section 65B certificate for electronic evidence; reaffirmation of the 'five golden principles' for circumstantial evidence."
+      ],
+      "overruling_or_modification": "Neither case explicitly overrules prior Supreme Court precedents. Case A upholds and applies the reasoning from a Full Bench of the Andhra Pradesh High Court and previous Supreme Court judgments. Case B reinforces and applies established Supreme Court precedents on criminal evidence.",
+      "cross_case_influence": "There is no direct cross-case influence between these two cases due to their distinct legal domains. However, both contribute to the broader jurisprudence of the Supreme Court by providing clear guidance in their respective areas of law."
+    },
+    "judicial_philosophy": {
+      "philosophy_A": "The Court in Case A exhibits a pragmatic and purposive judicial philosophy, interpreting the statute to achieve its stated objectives (farmer welfare, market regulation) while also considering the practical implications for affected parties (instalment payment for fees). It leans towards upholding administrative actions where procedural distinctions are valid.",
+      "philosophy_B": "The Court in Case B demonstrates a strict constructionist and rights-protective judicial philosophy. It emphasizes strict adherence to statutory evidentiary rules and the fundamental principle of 'proof beyond reasonable doubt' to safeguard individual liberty. It critically reviews lower court judgments for procedural errors and inadmissible evidence, prioritizing due process over the 'gravity of the offence'.",
+      "policy_rationale": {
+        "A": [
+          "To ensure effective regulation of agricultural markets and products, preventing exploitation of farmers.",
+          "To provide clarity on the scope of 'products of livestock' to include processed derivatives.",
+          "To balance regulatory enforcement with practical considerations for businesses."
+        ],
+        "B": [
+          "To uphold the integrity of the criminal justice system by ensuring convictions are based solely on legally admissible and sufficient evidence.",
+          "To protect the fundamental rights of the accused by enforcing strict evidentiary standards and the presumption of innocence.",
+          "To prevent 'moral convictions' and ensure that 'may be true' does not equate to 'must be true'."
+        ]
+      },
+      "constitutional_morality": {
+        "A": "Upholds the legislative intent behind welfare-oriented market regulation, ensuring fair trade practices and revenue generation for market committees, consistent with the state's power to regulate commerce.",
+        "B": "Strongly upholds constitutional morality by ensuring due process, fair trial, and the protection of individual liberty against arbitrary conviction, emphasizing that the state must prove guilt beyond reasonable doubt through legally sound evidence."
+      }
+    },
+    "similarity_scores": {
+      "facts": 5,
+      "issues": 10,
+      "statutes": 5,
+      "reasoning": 15,
+      "overall": 8,
+      "score_explanation": "The similarity scores are very low across all dimensions because the cases belong to entirely different legal domains (civil/administrative vs. criminal). While both are Supreme Court judgments and involve statutory interpretation, the specific facts, legal issues, statutes, and the nature of the court's reasoning are fundamentally distinct. The outcomes are also opposite. The minimal scores reflect only the shared characteristic of being high-level judicial pronouncements involving statutory analysis."
+    },
+    "practical_takeaways": {
+      "how_to_cite": [
+        "When citing Case A (Sangam Milk Producer Company Ltd.), it is useful for arguments concerning the interpretation of 'products of livestock' or similar definitions in agricultural market acts, and for distinguishing between procedural requirements for different types of administrative notifications.",
+        "When citing Case B (Randeep Singh @ Rana), it is crucial for criminal law practitioners, especially regarding the strict admissibility requirements for electronic evidence (Section 65B), the limited scope of Section 27 of the Evidence Act for disclosure statements, and the high standard of proof for circumstantial evidence as laid down in Sharad Birdhichand Sarda."
+      ],
+      "how_to_distinguish": [
+        "Case A can be distinguished from Case B by its focus on civil/administrative law, market regulation, and statutory interpretation within a specific state act, contrasting with Case B's focus on criminal law, evidentiary rules, and fundamental rights under central statutes.",
+        "The nature of the 'proof' required also distinguishes them: Case A deals with the validity of administrative action and liability for fees, while Case B deals with proving criminal guilt 'beyond reasonable doubt'."
+      ],
+      "binding_authority": "Both judgments are binding precedents for all courts and tribunals in India, with Case A providing guidance on market regulation and Case B on criminal evidence and procedure.",
+      "applicability_test": [
+        "Case A's principles are applicable where questions arise about the scope of 'agricultural produce' or 'products of livestock' in market legislation, or the procedural validity of administrative notifications under similar statutory frameworks.",
+        "Case B's principles are applicable in any criminal trial involving circumstantial evidence, electronic evidence, eyewitness testimony with omissions, or disclosure statements to police, serving as a critical reminder of the strict evidentiary standards required for conviction."
+      ]
+    },
+    "meta_insights": {
+      "language_tone": {
+        "A": "Formal, direct, and explanatory, aiming to clarify statutory provisions and uphold administrative decisions. The tone is decisive in dismissing the appeals.",
+        "B": "Formal, analytical, and critical, particularly towards the lower courts' handling of evidence. The tone is emphatic in reiterating fundamental principles of criminal jurisprudence and protecting individual rights."
+      },
+      "citation_density": {
+        "A": "Moderate, primarily citing the relevant state Act and a few Supreme Court precedents for statutory interpretation.",
+        "B": "High, with extensive citations to the Indian Evidence Act, IPC, CrPC, and numerous Supreme Court precedents, especially on circumstantial evidence and evidentiary admissibility."
+      },
+      "clarity_structure": {
+        "A": "Very clear and well-structured, starting with the two main questions, detailing the statutory provisions, and then addressing each argument systematically. The comparative analysis of Sections 3 and 4 is particularly well-laid out.",
+        "B": "Highly clear and meticulously structured, beginning with factual aspects, then systematically dissecting each piece of evidence (eyewitness, CCTV, disclosure statements) against established legal principles. The reasoning is logical and easy to follow, highlighting specific errors by lower courts."
+      },
+      "bench_consensus": {
+        "A": "Unanimous (two-judge bench, authored by Sudhanshu Dhulia, J., with S.V.N. Bhatti, J. concurring).",
+        "B": "Unanimous (three-judge bench, authored by Abhay S. Oka, J., with Ahsanuddin Amanullah, J. and Augustine George Masih, J. concurring)."
+      }
+    }
+  }
+}
