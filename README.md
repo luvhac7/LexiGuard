@@ -4,8 +4,7 @@
 
 A data-driven analytics platform for Indian judicial decisions using SQL-based data pipelines, AI-powered text analysis, and interactive BI dashboards.
 
-![LexiGuard Dashboard](<img width="947" height="551" alt="Screenshot 2026-03-12 010259" src="https://github.com/user-attachments/assets/358aa704-b962-4ed7-9452-68e297581e70" />
-)
+![Analytics Dashboard Overview](https://github.com/user-attachments/assets/6e8af7f4-c02a-4a15-a3d5-1ef5caa99647)
 
 ## Architecture (BIE Style)
 
@@ -137,9 +136,6 @@ ORDER BY cs.similarity_score DESC LIMIT 10;
 
 Build a 4-page Power BI dashboard from the LexiGuard PostgreSQL data warehouse.
 
-![Dashboard Preview](<img width="925" height="441" alt="Screenshot 2026-03-12 010311" src="https://github.com/user-attachments/assets/46aba611-c1c0-4abf-b902-5d1b3c94e3b7" />
-)
-
 ## Quick Start (2 Options)
 
 ### Option A: Direct PostgreSQL Connection (Recommended)
@@ -179,49 +175,55 @@ After loading data, create 4 report pages:
 
 ### Page 1: Legal Case Trends
 
-![Legal Case Trends](<img width="964" height="366" alt="Screenshot 2026-03-12 010335" src="https://github.com/user-attachments/assets/01738281-69b5-4594-bd38-011430ad68a2" />
-)
+![Legal Case Trends - Dashboard Overview](https://github.com/user-attachments/assets/6e8af7f4-c02a-4a15-a3d5-1ef5caa99647)
 
 | Visual | Fields |
 |--------|--------|
+| **KPI Cards** | Total Cases (30), Total Queries (180), Avg Response (430ms), Embeddings (664), Similarity Pairs (110), Bias Records (30) |
 | **Area Chart** | X: `decision_date` (Month) · Y: Count of `case_id` |
 | **Donut Chart** | Legend: `legal_domain` · Values: Count of `case_id` |
 | **Bar Chart** | Axis: `court` · Values: Count of `case_id` |
-| **KPI Cards** | Total Cases, Total Queries, Avg Response, Embeddings, Similarity Pairs, Bias Records |
 
 ### Page 2: Judicial Analytics
 
-![Judicial Analytics](<img width="969" height="448" alt="Screenshot 2026-03-12 010454" src="https://github.com/user-attachments/assets/0a2ea907-beb6-44c3-95df-9a279a5335b0" />
-)
+![Judicial Analytics](https://github.com/user-attachments/assets/0e797ab0-255d-43f1-9955-b6d1d97c2ac6)
 
 | Visual | Fields |
 |--------|--------|
 | **Bar Chart** | Axis: `judge` · Values: Count of `case_id` · Sort: descending |
-| **Table** | Top legal query patterns with category badges and hit counts |
+| **Query Table** | Top legal query patterns with category badges (Criminal, Civil, Tax, Constitutional, Commercial) and hit counts |
 | **KPI Cards** | Judge workload distribution metrics |
 
 ### Page 3: Bias Detection Analytics
 
-![Bias Detection](<img width="991" height="350" alt="Screenshot 2026-03-12 010511" src="https://github.com/user-attachments/assets/7e37d9f1-3aef-4a84-94b1-7ebc354888ad" />
-
+![Bias Detection Analytics](https://github.com/user-attachments/assets/ce4255d2-1f56-4de4-a22e-8e7ed4091df7)
 
 | Visual | Fields |
 |--------|--------|
 | **Radar Chart** | Average bias across dimensions (Gender, Power Dynamics, Emotional Language) |
-| **Grouped Bar Chart** | Axis: `legal_domain` · Values: Avg of 3 bias scores (Emotion, Gender, Power) |
-| **High Bias Cards** | Cases with gender bias > 70% (e.g., Meena Kumari vs Suresh Kumar: 86%) |
-| **KPI Cards** | Avg Gender Bias, High Bias % |
+| **Grouped Bar Chart** | Axis: `legal_domain` · Values: Avg of 3 bias scores (Emotion-purple, Gender-rose, Power-amber) |
+| **High Bias Cards** | Cases with gender bias > 70% (e.g., Meena Kumari vs Suresh Kumar: 86%, Geeta Devi vs Husband & In-Laws: 84%) |
+
+**Interactive Hover State:**
+
+![Bias Detection Hover](https://github.com/user-attachments/assets/19484812-1967-4045-b91b-e22e7ace89ad)
 
 ### Page 4: Case Similarity Network
 
-![Case Similarity](<img width="969" height="448" alt="Screenshot 2026-03-12 010454" src="https://github.com/user-attachments/assets/e14307f0-d265-4502-bf25-b7fe01c8fec4" />
-)
+![Case Similarity Network - Table View](https://github.com/user-attachments/assets/714977cb-548d-4e4d-b069-725f581b83aa)
 
 | Visual | Fields |
 |--------|--------|
-| **Table** | From `similar_precedents` — case_a, case_b, similarity_score with color-coded progress bars |
-| **Scatter Plot** | Pairwise case similarity scores (High >70%, Medium 40-70%, Low <40%) |
-| **KPI Cards** | Avg Similarity, Total Precedent Pairs |
+| **Similarity Table** | Case A, Case B, Similarity Score with color-coded progress bars (Green >70%, Orange 40-70%, Red <40%) |
+| **Scatter Plot** | Pairwise case similarity scores distribution |
+
+**Similarity Distribution Detail:**
+
+![Case Similarity Distribution](https://github.com/user-attachments/assets/68fb5714-5885-4f94-b2d2-cdd8654a2c47)
+
+| Visual | Fields |
+|--------|--------|
+| **Scatter/Bubble Chart** | X: Case pairs · Y: Similarity % · Color: Similarity Level (High/Medium/Low) · Tooltip: Case Pair details |
 
 ---
 
